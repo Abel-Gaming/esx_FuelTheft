@@ -29,7 +29,9 @@ if Config.Enable3DText then
 			-- Get the closest vehicle
 			local closestVehicle = ESX.Game.GetClosestVehicle(GetEntityCoords(PlayerPedId()))
 			
-			while #(GetEntityCoords(closestVehicle) - GetEntityCoords(PlayerPedId())) < 2.0 and editMode and not grillLocked do
+			while #(GetEntityCoords(closestVehicle) - GetEntityCoords(PlayerPedId())) < 2.0 do
+						
+			end
 		end
 	end)
 end
