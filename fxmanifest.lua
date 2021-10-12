@@ -1,4 +1,4 @@
-fx_version 'bodacious'
+fx_version 'cerulean'
 game 'gta5'
 description 'ESX Fuel Theft - Steal gas from cars!'
 author 'Abel Gaming'
